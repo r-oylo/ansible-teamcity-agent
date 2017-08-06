@@ -1,14 +1,11 @@
 TeamCity Agent
 =========
 
-[![Build Status](https://travis-ci.org/matisku/ansible-teamcity-agent.svg?branch=master)](https://travis-ci.org/matisku/ansible-teamcity-agent)
-
 This role will install and configure TeamCity Agent for TeamCity Server - CI tool from Jetbrains.
-Feel free to use it along with my TeamCity Server role - [matisku.teamcity-server](https://github.com/matisku/ansible-teamcity-server).
 
 ## Requirements
 1. `teamcity-server` - TeamCity Server
-2. [ansiblebit.oracle-java](https://github.com/ansiblebit/oracle-java) - Java is required on TeamCity Agent
+2. `geerlingguy.java` - Java is required on TeamCity Agent
 
 ## Role Variables
 | Variable name               | Default value      | Description                |
