@@ -28,12 +28,12 @@ Example playbook:
 ```yaml
 - hosts: teamcity-agent
   roles:
-    - matisku.teamcity-agent
+    - matevarga.teamcity-agent
 ```
 
 ## Author Information
-This role was created by Mateusz Trojak for [Brainly](http://www.brainly.com).
-We are using this role for company CI automation with easy scaling if needed.
+This role was originally created by Mateusz Trojak for [Brainly](http://www.brainly.com)
+I have forked the role to make it more suitable for my own needs.
 
 ## License
-Copyright © 2017 Mateusz Trojak. See LICENSE for details.
+Copyright © 2017 Mate Varga. See LICENSE for details.
