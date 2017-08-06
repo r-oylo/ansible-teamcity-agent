@@ -1,7 +1,7 @@
 ---
 - name: "Download Agent Package"
   get_url:
-    url: "http://{{ teamcity_agent_server_url }}:{{ teamcity_agent_server_port }}/update/buildAgent.zip"
+    url: "{{ teamcity_agent_server_url }}/update/buildAgent.zip"
     dest: /tmp
     validate_certs: no
     timeout: 60
