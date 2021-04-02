@@ -30,7 +30,7 @@
     owner: "{{ teamcity_agent_user }}"
     group: "{{ teamcity_agent_group }}"
     copy: "no"
-  when: _teamcity_agent_package|changed
+  when: _teamcity_agent_package.changed
 
 - name: "Add TeamCity Agent service default config"
   template:
